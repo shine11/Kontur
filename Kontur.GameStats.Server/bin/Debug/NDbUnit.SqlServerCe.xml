@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NDbUnit.SqlServerCe</name>
+    </assembly>
+    <members>
+        <member name="M:NDbUnit.Core.SqlServerCe.SqlCeDbOperation.ActivateInsertIdentity(System.String,System.Data.Common.DbTransaction)">
+            <summary>
+            Creates an object to activate or deactivate identity insert
+            </summary>
+            <param name="tableName">The table name to activate the identity insert for</param>
+            <param name="dbTransaction">The current transaction</param>
+            <returns>The new object that - when disposed - deactivates the identity insert</returns>
+        </member>
+    </members>
+</doc>
